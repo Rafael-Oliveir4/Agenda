@@ -23,7 +23,7 @@ function adcionaLinha(){
     } else {
 
     contato.push(inputNomeContato.value);
-    telefone.push(parseFloat(inputTelefone.value));
+    telefone.push(Number(inputTelefone.value));
 
     let linha = `<tr>`;
     linha += `<td>${inputNomeContato.value}</td>`;
